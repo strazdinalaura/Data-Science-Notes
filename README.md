@@ -1,3 +1,3 @@
 # Master_DSI_Notes
 
-These are Templates for Data Science 
+Collecting my Data Science Course notes & templates here. 
