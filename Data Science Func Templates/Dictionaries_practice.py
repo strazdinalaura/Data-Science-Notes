@@ -1,4 +1,3 @@
-""" un/comment to de/activate ###########################
 from typing import Text
 
 
@@ -23,6 +22,7 @@ tup4 = ('value7', 'value8')
 print(return_dict_of_vals(tup1, tup2, tup3, tup4))
 #prints {'value0': 'value1', 'value3': 'value4', 'value5': 'value6', 'value7': 'value8'}
 
+#########################################################
 
 #### adding new items to the dict
 some_dict = dict()
@@ -40,10 +40,7 @@ other_d[other_tup[0]] = other_tup[1]
 print(other_d)
 #prints {'frog': 2, 'log': 3, 'nog': 7}
 
-
-#######################################################"""
-
-""" un/comment to de/activate ###########################
+#########################################################
 
 
 def letter_idx(txt):
@@ -63,10 +60,8 @@ def letter_idx(txt):
     return d
 
 print(letter_idx("hello there!"))
-#######################################################"""
 
-""" un/comment to de/activate ###########################
-
+#########################################################
 
 def letter_idx(word):
 
@@ -90,14 +85,9 @@ def letter_idx(word):
 print(letter_idx("Hello"))
 
 
+#########################################################
 
-    
-#######################################################"""
-''''''
-
-""" un/comment to de/activate ###########################
-
-
+   
 def check_dict(d, pot_key):
 
     if pot_key in d:
@@ -110,12 +100,7 @@ d1 = {'key': 'key3', 'key1':'value1'}
 pot_key2 = 'key1'
 print(check_dict(d1, pot_key2))
 
-
-
-
-#######################################################"""
-
- #un/comment to de/activate ###########################
+#########################################################
 
 def observation_adder(dict_of_obs, seen):
 
